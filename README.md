@@ -5,3 +5,16 @@
 <img src="Howlira-logo.png" alt="Howlira Logo">
 
 💬 Um simples webapp de chat para gamers
+
+## 🚀 Tecnologias usadas
+
+- HTML
+- Typescript
+- Livekit Server SDK
+
+## 📄 Licença
+O Howlira está licenciado sob a **MIT License**.
+
+É proibida a venda do software sem autorização do possuidor do software(Astro)
+
+<p>⌨️ Feito com curiosidade e café ☕</p>
