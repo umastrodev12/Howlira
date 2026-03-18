@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Howlira</title>
+  </head>
+  <body>
+    <div class="welcome">
+      <h1>Bem vindo ao Howlira!</h1>
+      <button><a href="/entrar">Entrar</a></button>
+      <button><a href="/register">Registrar</a></button>
+    </div>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Roboto, sans-serif;
+        background: linear-gradient(
+          80deg,
+          #100087 0%,
+          #360078 50%,
+          #0043d3 100%
+        );
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .welcome {
+        /* Efeito Glassmorphism */
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+      }
+
+      h1 {
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      button {
+        background: rgba(0, 179, 255, 0.2);
+        border: 1px solid rgba(0, 179, 255, 0.5);
+        padding: 12px 30px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: rgba(0, 179, 255, 0.4);
+        transform: translateY(-2px);
+      }
+
+      button a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+      }
+    </style>
+  </body>
+</html>
