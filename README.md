@@ -7,7 +7,7 @@
 
 💬 Um simples webapp de chat para gamers
 
-Inspirado pelo [WhoMessage](https://whomessage.chat)
+Inspirado no [WhoMessage](https://whomessage.chat)
 
 ## 🚀 Tecnologias usadas
 
