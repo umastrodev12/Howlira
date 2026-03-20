@@ -11,11 +11,11 @@ const port = 3000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "../index.html"));
 });
 
 app.get("/login", (req, res) => {
-  res.sendFile(path.join(__dirname, "entrar.html"));
+  res.sendFile(path.join(__dirname, "../entrar.html"));
 });
 
 app.post("/api/register", async (request, response) => {
